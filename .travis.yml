@@ -1,11 +1,11 @@
 sudo: false
 language: node_js
 node_js:
-  - node # use nodejs v10 LTS
+  - 10 # use nodejs v10 LTS
 cache: npm
 branches:
   only:
-    - source # build master branch only
+    - master # build master branch only
 script:
   - hexo generate # generate static files
 deploy:
@@ -15,7 +15,8 @@ deploy:
   keep-history: true
   on:
     branch: master
-  local-dir: public # 生成静态网页
+  local-dir: public
+c # 生成静态网页
 
  # 构建完成之后的操作
 after_script:
