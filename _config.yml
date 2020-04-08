@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: "Timmiew's Web Log"
+title: "Timmiew's Blog"
 subtitle: 'Stay With You'
 description: ''
 keywords:
@@ -102,4 +102,5 @@ deploy:
 
 # Theme config
 theme_config:
+  
   
