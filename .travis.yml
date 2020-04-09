@@ -12,5 +12,7 @@ deploy:
   keep-history: true
   on:
     branch:  source
-  local-dir: publicocal-dir: publicnch:  source
+  local-dir: public
+  
+  ir: publicnch:  source
   local-dir: publicocal-dir: public
